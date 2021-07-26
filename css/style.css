@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #7b7b7b;
+    background-color: #262525;
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+
+.wrapper {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.intro {
+    height: 30rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: url('../img/book.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.intro__wrapper {
+    max-width: 66.25rem;
+    margin: 0 2rem;
+    display: flex;
+}
+
+.intro__photo {
+    min-width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: url('../img/photo.jpg') no-repeat center bottom;
+    background-size: cover;
+}
+
+.intro__text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #262525;
+}
+
+.intro__title {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+    font-size: 2.2rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.intro__subtitle {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    letter-spacing: 0.8rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.about {
+    margin: 4rem 0;
+}
+
+.about__content {
+    background-color: #282828;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.about__description {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.about__download {
+    padding: 2.5rem;
+    border-top: 1px solid rgba(160, 160, 160, .2);
+}
+
+.about__btn {
+    max-width: 12rem;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    background-color: #7b7b7b;
+    font-weight: 700;
+    text-align: center;
+    border-radius: .2rem;
+    color: #282828;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.about__btn:hover,
+.about__btn:active,
+.about__btn:focus {
+    background-color: aliceblue;
+}
+
+.education {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education__title {
+    display: flex;
+    align-items: center;
+}
+
+.education__title-pic-back {
+    background-color: #282828;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.education__title-pic {
+    width: 3rem;
+    height: 3rem;
+}
+
+.education__title-text {
+    padding-left: 1rem;
+    color: #7b7b7b;
+    font-weight: 700;
+}
